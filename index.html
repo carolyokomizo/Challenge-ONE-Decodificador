@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador Alura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.site.png" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <header>
+            <header class="cabecalho">
+                <img src="logo.alura.png" alt="logo alura">
+                <h1>Decodificador</h1>
+            </header>
+        </header>
+
+        <section>
+            <div class="container-input">
+            <textarea class="text-area" placeholder="Digite o seu código"></textarea></div>
+        </section>
+
+        <section>
+            <textarea class="mensagem" cols="20" rows="10"></textarea>
+        </section>
+
+            <div class="botoes">
+                    <div class="atencao">
+                    <img src="Vector.png" alt="exclamacao"><p>ATENÇÃO: Apenas letras minúsculas e sem acento</p>
+                    </div>
+                <button class="btn-criptografar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-descriptografar" onclick="btnDesencriptar()">Descriptografar</button>
+                
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/carolina-y-818085132/"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://github.com/carolyokomizo"><ion-icon name="logo-github"></ion-icon></a>
+            
+        </div>
+        <h3>&copy;Desenvolvido por Carolina do Nascimento Yokomizo 2023</h3>
+    
+    </footer>
+    
+    <script src="script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
